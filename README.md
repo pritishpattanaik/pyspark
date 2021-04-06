@@ -1,1 +1,8 @@
 # pyspark
+
+
+If you are working in the field of big data, you must have definelty heard of spark. If you look at the Apache Spark website, you will see that it is said to be a Lightning-fast unified analytics engine. PySpark is a flavour of Spark used for processing and analysing massive volumes of data. If you are familiar with python and have tried it for huge datasets, you should know that the execution time can get ridiculous. Enter PySpark!
+Imagine your data resides in a distributed manner at different places. If you try brining your data to one point and executing your code there, not only would that be inefficent, but also cause memory issues. Now let's say your code goes to the data rather than the data coming to where your code. This will help avoid unneccesary data movement which will thereby decrease the running time.
+PySpark is the Python API of Spark; which means it can do almost all the things python can. Machine learning(ML) pipelines, exploratory data analysis (at scale), ETLs for data platform, and much more! And all of them in a distributed manner. One of the best parts of pyspark is that if you are already familiar with python, it's really easy to learn.
+Apart from PySpark, there is another language called Scala used for big data processing. Scala is frequently over 10 times faster than Python, as it is native for Hadoop as its based on JVM. But PySpark is getting adopted at a fast rate because of the ease of use, easier learning curve and ML capabilities.
+I will briefly explain how a PySpark job works, but I strongly recommend you read more about the architecture and how everything works. Now, before I get into it, let me talk about some basic jargons first:
